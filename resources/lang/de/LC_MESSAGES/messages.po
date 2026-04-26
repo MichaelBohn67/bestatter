@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bestatter\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A new verification link has been sent to the email address you provided during registration."
+msgstr "Ein neuer Bestätigungslink wurde an die bei der Registrierung angegebene E-Mail-Adresse gesendet."
+
+msgid "A new verification link has been sent to your email address."
+msgstr "Ein neuer Bestätigungslink wurde an deine E-Mail-Adresse gesendet."
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Address Line 2"
+msgstr "Adresszusatz"
+
+msgid "Admin Panel"
+msgstr "Admin-Bereich"
+
+msgid "Already registered?"
+msgstr "Bereits registriert?"
+
+msgid "Are you sure you want to delete your account?"
+msgstr "Möchtest du dein Konto wirklich löschen?"
+
+msgid "Assignment"
+msgstr "Zuordnung"
+
+msgid "Back to Overview"
+msgstr "Zur Übersicht"
+
+msgid "Billing Data"
+msgstr "Rechnungsdaten"
+
+msgid "Burial"
+msgstr "Erdbestattung"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cancelled"
+msgstr "Storniert"
+
+msgid "City"
+msgstr "Ort"
+
+msgid "Click here to re-send the verification email."
+msgstr "Hier klicken, um die Bestätigungs-E-Mail erneut zu senden."
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Create Billing Data"
+msgstr "Rechnungsdaten anlegen"
+
+msgid "Create Customer"
+msgstr "Auftraggeber anlegen"
+
+msgid "Create Deceased Person"
+msgstr "Verstorbene Person anlegen"
+
+msgid "Create New"
+msgstr "Neu anlegen"
+
+msgid "Create Order"
+msgstr "Auftrag anlegen"
+
+msgid "Create Relative"
+msgstr "Angehörige anlegen"
+
+msgid "Cremation"
+msgstr "Feuerbestattung"
+
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+msgid "Customer"
+msgstr "Auftraggeber"
+
+msgid "Customer (Relative)"
+msgstr "Auftraggeber (Angehöriger)"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Date of Birth"
+msgstr "Geburtsdatum"
+
+msgid "Date of Death"
+msgstr "Sterbedatum"
+
+msgid "Deceased"
+msgstr "Verstorbene(r)"
+
+msgid "Deceased Person"
+msgstr "Verstorbene Person"
+
+msgid "Deceased Persons"
+msgstr "Verstorbene Personen"
+
+msgid "Delete Account"
+msgstr "Konto löschen"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Draft"
+msgstr "Entwurf"
+
+msgid "Due Date"
+msgstr "Fällig am"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit Billing Data"
+msgstr "Rechnungsdaten bearbeiten"
+
+msgid "Edit Customer"
+msgstr "Auftraggeber bearbeiten"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Email Password Reset Link"
+msgstr "Link zum Zurücksetzen per E-Mail senden"
+
+msgid "English"
+msgstr "Englisch"
+
+msgid "Ensure your account is using a long, random password to stay secure."
+msgstr "Stelle sicher, dass dein Konto ein langes, zufälliges Passwort verwendet, um sicher zu bleiben."
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Forest Burial"
+msgstr "Waldbestattung"
+
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+msgid "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one."
+msgstr "Passwort vergessen? Kein Problem. Gib uns einfach deine E-Mail-Adresse an und wir senden dir einen Link zum Zurücksetzen deines Passworts."
+
+msgid "Funeral Details"
+msgstr "Bestattungsdetails"
+
+msgid "Funeral Order"
+msgstr "Bestattungsauftrag"
+
+msgid "Funeral Orders"
+msgstr "Bestattungsaufträge"
+
+msgid "Funeral Type"
+msgstr "Bestattungsart"
+
+msgid "German"
+msgstr "Deutsch"
+
+msgid "House Number"
+msgstr "Hausnummer"
+
+msgid "Invoice"
+msgstr "Rechnung"
+
+msgid "Invoice Date"
+msgstr "Rechnungsdatum"
+
+msgid "Invoice No."
+msgstr "Rechnungsnr."
+
+msgid "Invoice Number"
+msgstr "Rechnungsnummer"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Last Address"
+msgstr "Letzte Anschrift"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Log Out"
+msgstr "Abmelden"
+
+msgid "Log in"
+msgstr "Anmelden"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "New Funeral Order"
+msgstr "Neuer Bestattungsauftrag"
+
+msgid "New Order"
+msgstr "Neuer Auftrag"
+
+msgid "New Password"
+msgstr "Neues Passwort"
+
+msgid "No billing records available."
+msgstr "Keine Rechnungsdaten vorhanden."
+
+msgid "No customers available."
+msgstr "Keine Auftraggeber vorhanden."
+
+msgid "No entries available."
+msgstr "Keine Einträge vorhanden."
+
+msgid "No orders found."
+msgstr "Keine Aufträge gefunden."
+
+msgid "No relatives available."
+msgstr "Keine Angehörigen vorhanden."
+
+msgid "Notes"
+msgstr "Notizen"
+
+msgid "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain."
+msgstr "Sobald dein Konto gelöscht ist, werden alle Ressourcen und Daten dauerhaft entfernt. Bitte lade vorher alle Daten oder Informationen herunter, die du behalten möchtest."
+
+msgid "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account."
+msgstr "Sobald dein Konto gelöscht ist, werden alle Ressourcen und Daten dauerhaft entfernt. Bitte gib dein Passwort ein, um die endgültige Löschung zu bestätigen."
+
+msgid "Order"
+msgstr "Auftrag"
+
+msgid "Order No."
+msgstr "Auftrags-Nr."
+
+msgid "Orders"
+msgstr "Aufträge"
+
+msgid "Paid"
+msgstr "Bezahlt"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Passwords must be at least eight characters and match the confirmation."
+msgstr "Passwörter müssen mindestens acht Zeichen lang sein und der Bestätigung entsprechen."
+
+msgid "Personal Details"
+msgstr "Personendaten"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Place of Death"
+msgstr "Sterbeort"
+
+msgid "Planned Date"
+msgstr "Geplantes Datum"
+
+msgid "Please select"
+msgstr "Bitte auswählen"
+
+msgid "Please wait before retrying."
+msgstr "Bitte warte, bevor du es erneut versuchst."
+
+msgid "Postal Code"
+msgstr "PLZ"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile Information"
+msgstr "Profilinformationen"
+
+msgid "Register"
+msgstr "Registrieren"
+
+msgid "Relationship"
+msgstr "Beziehung"
+
+msgid "Relationship to the Deceased"
+msgstr "Beziehung zur verstorbenen Person"
+
+msgid "Relatives"
+msgstr "Angehörige"
+
+msgid "Religion"
+msgstr "Religion"
+
+msgid "Remember me"
+msgstr "Angemeldet bleiben"
+
+msgid "Resend Verification Email"
+msgstr "Bestätigungs-E-Mail erneut senden"
+
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Saved."
+msgstr "Gespeichert."
+
+msgid "Sea Burial"
+msgstr "Seebestattung"
+
+msgid "Sent"
+msgstr "Versendet"
+
+msgid "State"
+msgstr "Bundesland"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Street"
+msgstr "Straße"
+
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+msgid "The provided password does not match your current password."
+msgstr "Das angegebene Passwort stimmt nicht mit deinem aktuellen Passwort überein."
+
+msgid "This is a secure area of the application. Please confirm your password before continuing."
+msgstr "Dies ist ein geschützter Bereich der Anwendung. Bitte bestätige dein Passwort, um fortzufahren."
+
+msgid "This password reset token is invalid."
+msgstr "Dieses Token zum Zurücksetzen des Passworts ist ungültig."
+
+msgid "Total"
+msgstr "Summe"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "Update Password"
+msgstr "Passwort aktualisieren"
+
+msgid "Update your account's profile information and email address."
+msgstr "Aktualisiere die Profilinformationen und die E-Mail-Adresse deines Kontos."
+
+msgid "VAT (%)"
+msgstr "MwSt. (%)"
+
+msgid "We can't find a user with that email address."
+msgstr "Wir konnten keinen Benutzer mit dieser E-Mail-Adresse finden."
+
+msgid "We have emailed your password reset link."
+msgstr "Wir haben dir den Link zum Zurücksetzen des Passworts per E-Mail geschickt."
+
+msgid "Welcome to the Admin Panel!"
+msgstr "Willkommen im Admin-Bereich!"
+
+msgid "You're logged in!"
+msgstr "Du bist eingeloggt!"
+
+msgid "Your email address is unverified."
+msgstr "Deine E-Mail-Adresse ist nicht bestätigt."
+
+msgid "Your password has been reset."
+msgstr "Dein Passwort wurde zurückgesetzt."

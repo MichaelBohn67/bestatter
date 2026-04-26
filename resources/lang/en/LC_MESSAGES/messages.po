@@ -1,0 +1,375 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bestatter\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A new verification link has been sent to the email address you provided during registration."
+msgstr "A new verification link has been sent to the email address you provided during registration."
+
+msgid "A new verification link has been sent to your email address."
+msgstr "A new verification link has been sent to your email address."
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "Address Line 2"
+msgstr "Address Line 2"
+
+msgid "Admin Panel"
+msgstr "Admin Panel"
+
+msgid "Already registered?"
+msgstr "Already registered?"
+
+msgid "Are you sure you want to delete your account?"
+msgstr "Are you sure you want to delete your account?"
+
+msgid "Assignment"
+msgstr "Assignment"
+
+msgid "Back to Overview"
+msgstr "Back to Overview"
+
+msgid "Billing Data"
+msgstr "Billing Data"
+
+msgid "Burial"
+msgstr "Burial"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Cancelled"
+msgstr "Cancelled"
+
+msgid "City"
+msgstr "City"
+
+msgid "Click here to re-send the verification email."
+msgstr "Click here to re-send the verification email."
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Create Billing Data"
+msgstr "Create Billing Data"
+
+msgid "Create Customer"
+msgstr "Create Customer"
+
+msgid "Create Deceased Person"
+msgstr "Create Deceased Person"
+
+msgid "Create New"
+msgstr "Create New"
+
+msgid "Create Order"
+msgstr "Create Order"
+
+msgid "Create Relative"
+msgstr "Create Relative"
+
+msgid "Cremation"
+msgstr "Cremation"
+
+msgid "Current Password"
+msgstr "Current Password"
+
+msgid "Customer"
+msgstr "Customer"
+
+msgid "Customer (Relative)"
+msgstr "Customer (Relative)"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Date of Birth"
+msgstr "Date of Birth"
+
+msgid "Date of Death"
+msgstr "Date of Death"
+
+msgid "Deceased"
+msgstr "Deceased"
+
+msgid "Deceased Person"
+msgstr "Deceased Person"
+
+msgid "Deceased Persons"
+msgstr "Deceased Persons"
+
+msgid "Delete Account"
+msgstr "Delete Account"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Due Date"
+msgstr "Due Date"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit Billing Data"
+msgstr "Edit Billing Data"
+
+msgid "Edit Customer"
+msgstr "Edit Customer"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email Password Reset Link"
+msgstr "Email Password Reset Link"
+
+msgid "English"
+msgstr "English"
+
+msgid "Ensure your account is using a long, random password to stay secure."
+msgstr "Ensure your account is using a long, random password to stay secure."
+
+msgid "First Name"
+msgstr "First Name"
+
+msgid "Forest Burial"
+msgstr "Forest Burial"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one."
+msgstr "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one."
+
+msgid "Funeral Details"
+msgstr "Funeral Details"
+
+msgid "Funeral Order"
+msgstr "Funeral Order"
+
+msgid "Funeral Orders"
+msgstr "Funeral Orders"
+
+msgid "Funeral Type"
+msgstr "Funeral Type"
+
+msgid "German"
+msgstr "German"
+
+msgid "House Number"
+msgstr "House Number"
+
+msgid "Invoice"
+msgstr "Invoice"
+
+msgid "Invoice Date"
+msgstr "Invoice Date"
+
+msgid "Invoice No."
+msgstr "Invoice No."
+
+msgid "Invoice Number"
+msgstr "Invoice Number"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Last Address"
+msgstr "Last Address"
+
+msgid "Last Name"
+msgstr "Last Name"
+
+msgid "Log Out"
+msgstr "Log Out"
+
+msgid "Log in"
+msgstr "Log in"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "New Funeral Order"
+msgstr "New Funeral Order"
+
+msgid "New Order"
+msgstr "New Order"
+
+msgid "New Password"
+msgstr "New Password"
+
+msgid "No billing records available."
+msgstr "No billing records available."
+
+msgid "No customers available."
+msgstr "No customers available."
+
+msgid "No entries available."
+msgstr "No entries available."
+
+msgid "No orders found."
+msgstr "No orders found."
+
+msgid "No relatives available."
+msgstr "No relatives available."
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain."
+msgstr "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain."
+
+msgid "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account."
+msgstr "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account."
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Order No."
+msgstr "Order No."
+
+msgid "Orders"
+msgstr "Orders"
+
+msgid "Paid"
+msgstr "Paid"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Passwords must be at least eight characters and match the confirmation."
+msgstr "Passwords must be at least eight characters and match the confirmation."
+
+msgid "Personal Details"
+msgstr "Personal Details"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "Place of Death"
+msgstr "Place of Death"
+
+msgid "Planned Date"
+msgstr "Planned Date"
+
+msgid "Please select"
+msgstr "Please select"
+
+msgid "Please wait before retrying."
+msgstr "Please wait before retrying."
+
+msgid "Postal Code"
+msgstr "Postal Code"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Profile Information"
+msgstr "Profile Information"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Relationship"
+msgstr "Relationship"
+
+msgid "Relationship to the Deceased"
+msgstr "Relationship to the Deceased"
+
+msgid "Relatives"
+msgstr "Relatives"
+
+msgid "Religion"
+msgstr "Religion"
+
+msgid "Remember me"
+msgstr "Remember me"
+
+msgid "Resend Verification Email"
+msgstr "Resend Verification Email"
+
+msgid "Reset Password"
+msgstr "Reset Password"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Saved."
+msgstr "Saved."
+
+msgid "Sea Burial"
+msgstr "Sea Burial"
+
+msgid "Sent"
+msgstr "Sent"
+
+msgid "State"
+msgstr "State"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Street"
+msgstr "Street"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "The provided password does not match your current password."
+msgstr "The provided password does not match your current password."
+
+msgid "This is a secure area of the application. Please confirm your password before continuing."
+msgstr "This is a secure area of the application. Please confirm your password before continuing."
+
+msgid "This password reset token is invalid."
+msgstr "This password reset token is invalid."
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Update Password"
+msgstr "Update Password"
+
+msgid "Update your account's profile information and email address."
+msgstr "Update your account's profile information and email address."
+
+msgid "VAT (%)"
+msgstr "VAT (%)"
+
+msgid "We can't find a user with that email address."
+msgstr "We can't find a user with that email address."
+
+msgid "We have emailed your password reset link."
+msgstr "We have emailed your password reset link."
+
+msgid "Welcome to the Admin Panel!"
+msgstr "Welcome to the Admin Panel!"
+
+msgid "You're logged in!"
+msgstr "You're logged in!"
+
+msgid "Your email address is unverified."
+msgstr "Your email address is unverified."
+
+msgid "Your password has been reset."
+msgstr "Your password has been reset."

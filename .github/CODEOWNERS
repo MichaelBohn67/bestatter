@@ -1,0 +1,10 @@
+# CODEOWNERS template
+# Replace the placeholder handle below with a real GitHub user or team.
+# Example:
+# * @your-org/maintainers
+# /app/ @your-org/backend
+# /resources/views/ @your-org/frontend
+# /.github/ @your-org/devops
+
+# TODO: assign real owners before relying on automatic review requests.
+
