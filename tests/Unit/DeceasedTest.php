@@ -34,13 +34,13 @@ class DeceasedTest extends TestCase
         $this->assertEquals('Jane Doe', $deceased->full_name);
     }
 
-    public function test_deceased_has_funeral_services_relationship(): void
+    public function test_deceased_has_funeral_service_relationship(): void
     {
         $deceased = Deceased::factory()->create();
         $funeralService = FuneralService::factory()->create(['deceased_id' => $deceased->id]);
 
-        $this->assertTrue($deceased->funeralServices->contains($funeralService));
-        $this->assertInstanceOf(\Illuminate\Database\Eloquent\Collection::class, $deceased->funeralServices);
+        $this->assertInstanceOf(FuneralService::class, $deceased->funeralService);
+        $this->assertSame($funeralService->id, $deceased->funeralService->id);
     }
 
     public function test_deceased_supports_soft_deletes(): void
