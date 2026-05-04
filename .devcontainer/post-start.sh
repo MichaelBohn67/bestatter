@@ -13,6 +13,12 @@ if [ ! -f artisan ] || [ ! -f .env ]; then
   exit 0
 fi
 
+app_env="$(grep -E '^APP_ENV=' .env | tail -n1 | cut -d'=' -f2- | tr -d '"' || true)"
+if [ "${app_env:-local}" != "local" ]; then
+  echo "Skipping migrations (APP_ENV=${app_env:-unknown}, expected local)."
+  exit 0
+fi
+
 # Retry migrations a few times in case db startup is still in progress.
 for i in $(seq 1 15); do
   if php artisan migrate --force; then

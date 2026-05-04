@@ -23,7 +23,7 @@ Die Anwendung soll ein leichtgewichtiges Backoffice fuer Bestattungsunternehmen 
 2. **klare Beziehungen** zwischen Verstorbenem, Auftraggeber und Auftrag
 3. **nachvollziehbare Rechnungsdaten** inklusive automatischer Steuerberechnung
 4. **mehrsprachige Benutzeroberflaeche** in Deutsch und Englisch
-5. **erweiterbare Domaeenbasis** fuer Friedhofs-, Kapellen- und Dokumentenverwaltung
+5. **erweiterbare Domaenenbasis** fuer Friedhofs-, Kapellen- und Dokumentenverwaltung
 
 ## 3. Zielgruppe und Rollen
 
@@ -38,7 +38,7 @@ Die Anwendung soll ein leichtgewichtiges Backoffice fuer Bestattungsunternehmen 
 
 ## 4. Fachlicher Scope
 
-## 4.1 Im aktuellen Projekt bereits abgedeckter Scope
+### 4.1 Im aktuellen Projekt bereits abgedeckter Scope
 - Bestattungsauftraege anlegen, anzeigen, listen, loeschen
 - Verstorbene anlegen und listen
 - Auftraggeber anlegen, bearbeiten und listen
@@ -65,7 +65,7 @@ Die Anwendung soll ein leichtgewichtiges Backoffice fuer Bestattungsunternehmen 
 
 ## 5. Fachobjekte und Beziehungen
 
-## 5.1 Bestattungsauftrag (`FuneralService`)
+### 5.1 Bestattungsauftrag (`FuneralService`)
 Zentrale Entitaet des Systems.
 
 **Attribute (relevant):**
@@ -87,7 +87,7 @@ Zentrale Entitaet des Systems.
 - kann optional einer `Chapel` zugeordnet werden
 - hat hoechstens eine `Billing`
 
-## 5.2 Verstorbene Person (`Deceased`)
+### 5.2 Verstorbene Person (`Deceased`)
 Erfasst Stammdaten zur verstorbenen Person.
 
 **Attribute (relevant):**
@@ -105,7 +105,7 @@ Erfasst Stammdaten zur verstorbenen Person.
 - hat viele `Document`
 - hat viele `Relative`
 
-## 5.3 Auftraggeber (`Customer`)
+### 5.3 Auftraggeber (`Customer`)
 Person, die den Auftrag erteilt bzw. organisatorisch verantwortlich ist.
 
 **Attribute (relevant):**
@@ -122,7 +122,7 @@ Person, die den Auftrag erteilt bzw. organisatorisch verantwortlich ist.
 - hat viele `FuneralService`
 - hat optional genau eine polymorphe `Address`
 
-## 5.4 Angehoeriger (`Relative`)
+### 5.4 Angehoeriger (`Relative`)
 Mit dem Verstorbenen verknuepfte Kontaktperson.
 
 **Attribute (relevant):**
@@ -137,7 +137,7 @@ Mit dem Verstorbenen verknuepfte Kontaktperson.
 - gehoert zu genau einem `Deceased`
 - hat optional genau eine polymorphe `Address`
 
-## 5.5 Rechnung (`Billing`)
+### 5.5 Rechnung (`Billing`)
 Rechnungsbezogene Daten zum Bestattungsauftrag.
 
 **Attribute (relevant):**
@@ -155,7 +155,7 @@ Rechnungsbezogene Daten zum Bestattungsauftrag.
 **Beziehungen:**
 - gehoert zu genau einem `FuneralService`
 
-## 5.6 Adresse (`Address`)
+### 5.6 Adresse (`Address`)
 Polymorphe Adresse fuer mehrere Domänenobjekte.
 
 **Verwendet von:**
@@ -174,7 +174,7 @@ Polymorphe Adresse fuer mehrere Domänenobjekte.
 - `country`
 - `additional_info`
 
-## 5.7 Erweiterungsobjekte
+### 5.7 Erweiterungsobjekte
 ### Dokument (`Document`)
 Datei-Metadaten zu einem `Deceased`.
 
@@ -219,7 +219,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 
 ## 7. Kernprozesse / Use Cases
 
-## 7.1 UC-01 Bestattungsauftrag anlegen
+### 7.1 UC-01 Bestattungsauftrag anlegen
 **Ziel:** Ein neuer Fall wird als zusammenhaengender Auftrag erfasst.
 
 **Eingaben:**
@@ -241,7 +241,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 - neuer zusammenhaengender Auftrag existiert
 - Benutzer wird zur Auftragsliste weitergeleitet
 
-## 7.2 UC-02 Verstorbene Person anlegen
+### 7.2 UC-02 Verstorbene Person anlegen
 **Ziel:** Eine verstorbene Person wird mit optionaler Anschrift erfasst.
 
 **Pflichtfelder:**
@@ -259,7 +259,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 - `Deceased` wird angelegt
 - falls Adressdaten vorliegen, wird `Address` angelegt
 
-## 7.3 UC-03 Auftraggeber anlegen oder bearbeiten
+### 7.3 UC-03 Auftraggeber anlegen oder bearbeiten
 **Ziel:** Kontakt- und Adressdaten des Auftraggebers pflegen.
 
 **Besonderheit:**
@@ -268,7 +268,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 **Ergebnis:**
 - `Customer` und optional `Address` werden erstellt/aktualisiert
 
-## 7.4 UC-04 Angehoerigen anlegen
+### 7.4 UC-04 Angehoerigen anlegen
 **Ziel:** Eine Kontaktperson wird einem Verstorbenen zugeordnet.
 
 **Pflichtfelder:**
@@ -280,7 +280,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 - `Relative` wird angelegt
 - optional `Address` wird angelegt
 
-## 7.5 UC-05 Rechnung anlegen oder bearbeiten
+### 7.5 UC-05 Rechnung anlegen oder bearbeiten
 **Ziel:** Rechnungsdaten zu einem Bestattungsauftrag erfassen.
 
 **Pflichtfelder:**
@@ -297,7 +297,7 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 **Systemverhalten:**
 - `BillingService` normalisiert und berechnet Summenfelder
 
-## 7.6 UC-06 Sprache wechseln
+### 7.6 UC-06 Sprache wechseln
 **Ziel:** Benutzer kann zwischen Deutsch und Englisch wechseln.
 
 **Ablauf:**
@@ -308,11 +308,11 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 
 ## 8. Funktionale Anforderungen
 
-## 8.1 Authentifizierung und Zugriff
+### 8.1 Authentifizierung und Zugriff
 - FR-01: Domain-Routen muessen hinter `auth` und `verified` liegen.
 - FR-02: Profilfunktionen muessen hinter `auth` liegen.
 
-## 8.2 Bestattungsauftraege
+### 8.2 Bestattungsauftraege
 - FR-10: Das System muss eine paginierte Auftragsliste bereitstellen.
 - FR-11: Beim Listenaufruf sollen Auftraggeber und Verstorbene eager geladen werden.
 - FR-12: Das System muss neue Auftraege aus kombiniertem Formularinput erstellen koennen.
@@ -320,66 +320,66 @@ Kann mehrere `Graveyard`-Eintraege haben und optional eine `Address` besitzen.
 - FR-14: Das System muss Soft Delete fuer Auftraege unterstuetzen.
 - FR-15: Eine Detail-/Bearbeitungsseite darf vorhanden sein; Bearbeitungslogik ist derzeit fachlich noch offen bzw. unvollstaendig umgesetzt.
 
-## 8.3 Verstorbene
+### 8.3 Verstorbene
 - FR-20: Das System muss eine paginierte Liste von Verstorbenen bereitstellen.
 - FR-21: Das System muss das Anlegen eines Verstorbenen mit optionaler Adresse unterstuetzen.
 - FR-22: `date_of_birth` und `date_of_death` muessen als Datum gecastet werden.
 
-## 8.4 Auftraggeber
+### 8.4 Auftraggeber
 - FR-30: Das System muss Auftraggeber listen, anlegen und bearbeiten koennen.
 - FR-31: Das System muss `relationship_to_deceased` speichern koennen.
 - FR-32: Die Felder `address`, `city` und `zip` muessen aus den `address_*`-Feldern abgeleitet werden koennen.
 
-## 8.5 Angehoerige
+### 8.5 Angehoerige
 - FR-40: Das System muss Angehoerige listen und anlegen koennen.
 - FR-41: Ein Angehoeriger muss genau einem Verstorbenen zugeordnet werden.
 
-## 8.6 Rechnungen
+### 8.6 Rechnungen
 - FR-50: Das System muss Rechnungen listen, anlegen und bearbeiten koennen.
 - FR-51: Rechnungsberechnung muss serverseitig stattfinden.
 - FR-52: Pro Bestattungsauftrag darf nur eine Rechnung existieren.
 
-## 8.7 Adressen
+### 8.7 Adressen
 - FR-60: Adressen muessen polymorph speicherbar sein.
 - FR-61: Formulare muessen das Feldschema `address_*` verwenden.
 
-## 8.8 Lokalisierung
-- FR-70: Neue UI-Texte muessen in gettext-PODateien gepflegt werden.
+### 8.8 Lokalisierung
+- FR-70: Neue UI-Texte muessen in gettext-PO-Dateien gepflegt werden.
 - FR-71: Standardisierte Blade-Lokalisierung erfolgt ueber `gettext()`.
 - FR-72: Nur `de` und `en` sind zulaessige Oberflaechensprachen.
 
-## 8.9 Externe Integrationen
+### 8.9 Externe Integrationen
 - FR-80: OpenPLZ-Zugriffe muessen ausschliesslich ueber `OpenPlzService` erfolgen.
 - FR-81: HTTP-Integrationen muessen testbar und via `Http::fake()` absicherbar sein.
 
 ## 9. Nichtfunktionale Anforderungen
 
-## 9.1 Architektur
+### 9.1 Architektur
 - Route -> Controller -> Service (bei mehrstufiger Logik) -> Model -> Blade
 - Controller sollen schlank bleiben.
 - Komplexe Schreiblogik gehoert in Services.
 
-## 9.2 Technologie
+### 9.2 Technologie
 - Backend: Laravel 12
 - Sprache: PHP 8.2
 - Frontend: Blade, Vite, Tailwind, Alpine.js
 - Datenbank: SQLite fuer lokale Tests; weitere DBs prinzipiell moeglich
 
-## 9.3 Datenkonsistenz
+### 9.3 Datenkonsistenz
 - Datenintegritaet wird sowohl ueber Validierung als auch Datenbank-Constraints abgesichert.
 - Loeschverhalten soll Soft Deletes respektieren.
 
-## 9.4 Testbarkeit
+### 9.4 Testbarkeit
 - Unit- und Feature-Tests muessen mit `php artisan test` ausfuehrbar sein.
 - PHPUnit verwendet laut Projektkonfiguration eine In-Memory-SQLite-Testdatenbank.
 
-## 9.5 Bedienbarkeit
+### 9.5 Bedienbarkeit
 - Serverseitig gerenderte CRUD-Flows sollen ohne komplexes JavaScript bedienbar sein.
 - Formulare und Listen sollen uebersichtlich und direkt auf Fachobjekte bezogen sein.
 
 ## 10. Aktuelle technische Umsetzung
 
-## 10.1 Routen
+### 10.1 Routen
 Vorhandene Ressourcenrouten:
 - `funeral-services` (vollstaendiges Resource-Routing)
 - `deceased` (`index`, `create`, `store`)
@@ -393,15 +393,15 @@ Zusatzrouten:
 - `/locale/{locale}`
 - Profilrouten
 
-## 10.2 Services
+### 10.2 Services
 - `FuneralServiceCreator`: legt `Deceased`, `Customer` und `FuneralService` in einem Flow an
 - `BillingService`: normalisiert Billing-Daten und berechnet Betragsfelder
 - `OpenPlzService`: kapselt die externe OpenPLZ-API
 
-## 10.3 Middleware
+### 10.3 Middleware
 - `SetLocale` setzt Laravel-Locale, System-Locale und gettext-Textdomain
 
-## 10.4 Testsituation
+### 10.4 Testsituation
 Vorhandene Tests decken u. a. ab:
 - Modellverhalten fuer `Deceased`, `Customer`, `FuneralService`, `Billing`, `User`
 - OpenPLZ-Service mit `Http::fake()`

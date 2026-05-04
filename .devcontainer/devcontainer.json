@@ -1,27 +1,27 @@
 {
   "name": "bestatter-devcontainer",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/bestatter",
+  "shutdownAction": "stopCompose",
   "remoteUser": "vscode",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "20"
-    }
-  },
-  "forwardPorts": [8000, 5173],
+  "forwardPorts": [8000, 5173, 3306, 6379],
   "portsAttributes": {
     "8000": {
       "label": "Laravel"
     },
     "5173": {
       "label": "Vite"
+    },
+    "3306": {
+      "label": "MariaDB"
+    },
+    "6379": {
+      "label": "Redis"
     }
   },
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "bash .devcontainer/post-start.sh",
   "customizations": {
     "vscode": {
       "extensions": [
